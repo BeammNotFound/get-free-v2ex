@@ -67,7 +67,6 @@ public class GoFree {
     @Scheduled(cron = "0 0 */6 * * ?")
     private static void saveData() {
         log.info("更新data.dat");
-        System.out.println("------------");
         saveListMap(getFree());
     }
 

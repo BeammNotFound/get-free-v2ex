@@ -17,8 +17,8 @@ import java.util.List;
  */
 @Slf4j
 public class TelegramNotificationBot {
-    private static final String TELEGRAM_API_TOKEN = "6275387208" +
-            ":AAEHzfjQKEd5Ru757PFqgXPz2Bb92vco36A";
+
+    private static final String TELEGRAM_API_TOKEN = "6275387208:AAEHzfjQKEd5Ru757PFqgXPz2Bb92vco36A";
     private static final long CHAT_ID = 5006912177L;
 
 
